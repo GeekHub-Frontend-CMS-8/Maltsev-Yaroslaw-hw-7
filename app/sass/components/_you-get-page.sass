@@ -1,0 +1,41 @@
+@import 'utils/_global.sass'
+@import 'utils/_mixins.sass'
+@import 'utils/_variabels.sass'
+.you-get
+	padding-bottom: 45px
+	&-title
+		margin-top: 50px
+		margin-bottom: 60px
+		+text-style-short($main-font-size*2.5, #8d81ac)
+	&-list
+		&-element
+			padding-bottom: 45px
+		&-img
+			width: 100px
+		&-name
+			+text-style-short($main-font-size + 2px, black)
+			font-weight: bold
+		&-desc
+			+text-style-short($main-font-size - 2px, $desc-color)
+	&-link-element
+		text-align: center
+		margin-top: 15px
+		margin-bottom: 15px
+		&-button
+			+flex-align(center)
+			display: block
+			padding: 15px 25px
+			margin-top: 30px
+			margin-bottom: 20px
+			&-name
+				margin: 0
+				&-twitter
+					color: $button-text-color
+				&-facebook
+					color: $button-text-color
+			&-github
+				background-color: #f3f3f3;
+			&-twitter
+				background-color: #26a6d1;
+			&-facebook
+				background-color: #3b5998;

@@ -1,0 +1,37 @@
+@import 'utils/_global.sass'
+@import 'utils/_mixins.sass'
+@import 'utils/_variabels.sass'
+.main-page
+	background: url(../img/7/background/main-page.png)
+	&-title
+		color: white
+		margin-top: 80px
+		margin-bottom: 20px
+	&-description
+		+text-style-short($main-font-size, #8d81ac)
+		font-weight: bold
+		text-align: $tc
+		margin-bottom: 20px
+	&-version
+		+text-style-short($main-font-size, $desc-color)
+		text-align: $tc
+		margin-bottom: 350px
+
+.description-page
+	&-btn-container
+		position: relative
+		top: -22px
+		+flex-justify(center)
+	&-button
+		padding-left: 50px
+		padding-right: 50px
+	&-trial
+		+text-style-short($main-font-size, $desc-color)
+		text-align: $tc
+	&-title
+		max-width: 100%
+		margin-top: 55px
+		margin-bottom: 55px
+	&-desc
+		width: 100%
+		color: $secondary-color

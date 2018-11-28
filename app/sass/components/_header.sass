@@ -1,0 +1,26 @@
+@import 'utils/_global.sass'
+@import 'utils/_mixins.sass'
+@import 'utils/_variabels.sass'
+.header
+	padding-top: 30px
+	padding-bottom: 30px
+.logo
+	@extend %flex-center
+	&-img
+		max-width: 30px
+		margin-right: 10px
+	&-name
+		display: block
+		+text-properties(1em, $main-font, $secondary-color, bold)
+		text-transform: uppercase
+		margin-left: 10px
+.header-menu
+	@extend %flex-center
+.header-button
+	@extend %flex-center
+.menu-list
+	text-align: right
+.nav-link
+	color: #635c73;
+.navbar-collapse
+	+flex-align(center)
