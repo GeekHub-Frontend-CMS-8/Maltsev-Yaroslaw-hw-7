@@ -17,25 +17,35 @@
 			font-weight: bold
 		&-desc
 			+text-style-short($main-font-size - 2px, $desc-color)
-	&-link-element
-		text-align: center
-		margin-top: 15px
-		margin-bottom: 15px
-		&-button
-			+flex-align(center)
-			display: block
-			padding: 15px 25px
-			margin-top: 30px
-			margin-bottom: 20px
-			&-name
-				margin: 0
+	&-link
+		&-btn-list
+			+flex-justify(center)
+		&-element
+			text-align: center
+			margin-top: 15px
+			margin-bottom: 15px
+			&-button
+				+flex-align(center)
+				width: 100%
+				display: block
+				padding: 15px
+				margin-top: 30px
+				margin-bottom: 20px
+				margin-right: 5px
+				&-name
+					margin: 0
+					&-twitter
+						color: $button-text-color
+					&-facebook
+						color: $button-text-color
+				&-github
+					background-color: #f3f3f3;
 				&-twitter
-					color: $button-text-color
+					background-color: #26a6d1;
 				&-facebook
-					color: $button-text-color
-			&-github
-				background-color: #f3f3f3;
-			&-twitter
-				background-color: #26a6d1;
-			&-facebook
-				background-color: #3b5998;
+					background-color: #3b5998;
+	&-img-right
+		img
+			width: 200%
+		&-container
+			overflow: hidden

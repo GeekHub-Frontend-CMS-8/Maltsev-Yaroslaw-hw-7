@@ -1,6 +1,7 @@
 @import 'utils/_global.sass'
 @import 'utils/_mixins.sass'
 @import 'utils/_variabels.sass'
+
 .subscribe
 	&-title
 		margin-top: 45px
@@ -12,5 +13,39 @@
 		&-input-email
 			margin-right: 20px
 
-.footer-logo	
-	+flex-justify(flex-start)
+
+.releas-change
+	&-title
+		margin-bottom: 40px
+		text-align: left
+		+text-properties($main-font-size*2, $main-font, #d3d1da, 700)
+	&-list
+		&-name
+			margin-top: 30px
+			margin-bottom: 30px
+			+text-style-short($main-font-size+2px, black)
+			font-weight: bold
+			&-2
+				margin-top: 30px
+				margin-bottom: 30px
+				+text-style-short($main-font-size+2px, #8d81ac)
+				font-weight: bold 
+		&-desc
+			color: $desc-color
+		&-element
+			text-align: left
+			&-btn-container
+				+flex-justify(flex-start)
+			&-button
+				display: block
+				margin: 40px
+				padding: 10px 5px
+				text-align: center
+				color: #8d81ac;
+				background-color: #f4f4f4;
+
+
+
+.footer
+	&-logo	
+		+flex-justify(flex-start)

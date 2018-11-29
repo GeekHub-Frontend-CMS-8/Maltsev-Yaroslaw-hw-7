@@ -29,7 +29,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -81,7 +86,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -139,7 +149,8 @@ input {
 
 .navbar-collapse {
   display: flex;
-  align-items: center; }
+  align-items: start;
+  padding-right: 10px; }
 
 .logo, .header-menu, .header-button {
   display: flex;
@@ -160,7 +171,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -254,7 +270,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -305,6 +326,9 @@ input {
   .you-get-list-desc {
     font-size: 12px;
     color: #848e97; }
+  .you-get-link-btn-list {
+    display: flex;
+    justify-content: center; }
   .you-get-link-element {
     text-align: center;
     margin-top: 15px;
@@ -312,10 +336,12 @@ input {
     .you-get-link-element-button {
       display: flex;
       align-items: center;
+      width: 100%;
       display: block;
-      padding: 15px 25px;
+      padding: 15px;
       margin-top: 30px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      margin-right: 5px; }
       .you-get-link-element-button-name {
         margin: 0; }
         .you-get-link-element-button-name-twitter {
@@ -328,6 +354,10 @@ input {
         background-color: #26a6d1; }
       .you-get-link-element-button-facebook {
         background-color: #3b5998; }
+  .you-get-img-right img {
+    width: 200%; }
+  .you-get-img-right-container {
+    overflow: hidden; }
 
 .logo, .header-menu, .header-button {
   display: flex;
@@ -348,7 +378,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -382,8 +417,8 @@ input {
   align-items: center; }
 
 .people-talking {
-  background: url(../../img/7/background/people-talking.png) no-repeat;
-  background-style: cover; }
+  background: url("../img/7/background/3-layers.png"), no-repeat;
+  background-size: cover; }
   .people-talking-title {
     color: #ffffff; }
   .people-talking-list .col-12 {
@@ -403,11 +438,12 @@ input {
     margin-bottom: 45px;
     color: #ffffff; }
   .pricing-list-element {
+    width: 100%;
     margin-top: 10px;
     padding: 0;
     margin-bottom: 15px; }
     .pricing-list-element-name {
-      font-size: 25px;
+      font-size: 1.5em;
       font-weight: 700;
       color: #fff;
       opacity: 1;
@@ -449,6 +485,13 @@ input {
     opacity: 0.8;
     color: #b5acb5; }
 
+.slider-img {
+  margin-right: 10px; }
+
+.slider-text {
+  margin-top: 45px;
+  text-align: center; }
+
 .logo, .header-menu, .header-button {
   display: flex;
   justify-content: center;
@@ -468,7 +511,12 @@ li {
 .container {
   border: 2px solid red; }
 
+.adaptive {
+  width: 100%;
+  height: auto; }
+
 .title {
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 900;
   text-align: center; }
@@ -511,6 +559,43 @@ input {
   margin-bottom: 40px; }
   .subscribe-form-input-email {
     margin-right: 20px; }
+
+.releas-change-title {
+  margin-bottom: 40px;
+  text-align: left;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  color: #d3d1da;
+  font-weight: 700; }
+
+.releas-change-list-name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold; }
+  .releas-change-list-name-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #8d81ac;
+    font-weight: bold; }
+
+.releas-change-list-desc {
+  color: #848e97; }
+
+.releas-change-list-element {
+  text-align: left; }
+  .releas-change-list-element-btn-container {
+    display: flex;
+    justify-content: flex-start; }
+  .releas-change-list-element-button {
+    display: block;
+    margin: 40px;
+    padding: 10px 5px;
+    text-align: center;
+    color: #8d81ac;
+    background-color: #f4f4f4; }
 
 .footer-logo {
   display: flex;
