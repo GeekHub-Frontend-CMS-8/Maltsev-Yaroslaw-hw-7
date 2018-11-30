@@ -8,8 +8,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .logo, .header-menu, .header-button {
   display: flex;
   justify-content: center;
@@ -210,7 +208,8 @@ input {
   align-items: center; }
 
 .main-page {
-  background: url(../img/7/background/main-page.png); }
+  background: url(../img/7/background/main-page.png) no-repeat;
+  background-size: cover; }
   .main-page-title {
     color: white;
     margin-top: 80px;
@@ -250,6 +249,47 @@ input {
 .description-page-desc {
   width: 100%;
   color: #323232; }
+
+.description-page-github-button {
+  display: flex;
+  justify-content: center; }
+
+.github-button-container {
+  display: block;
+  margin-right: 20px; }
+
+.description-page-btn-container {
+  position: relative;
+  top: -22px;
+  display: flex;
+  justify-content: center; }
+
+.description-page-button {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.description-page-trial {
+  font-size: 14px;
+  color: #848e97;
+  text-align: center; }
+
+.description-page-title {
+  max-width: 100%;
+  margin-top: 55px;
+  margin-bottom: 55px; }
+
+.description-page-desc {
+  text-align: center;
+  width: 100%;
+  color: #323232; }
+
+.description-page-github-button {
+  display: flex;
+  justify-content: center; }
+
+.github-button-container {
+  display: block;
+  margin-right: 5px; }
 
 .logo, .header-menu, .header-button {
   display: flex;
@@ -331,7 +371,7 @@ input {
     justify-content: center; }
   .you-get-link-element {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 60px;
     margin-bottom: 15px; }
     .you-get-link-element-button {
       display: flex;
@@ -359,138 +399,10 @@ input {
   .you-get-img-right-container {
     overflow: hidden; }
 
-.logo, .header-menu, .header-button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-* {
-  margin: 0;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  color: #4d4d4d;
-  font-weight: 400;
-  font-weight: 400; }
-
-li {
-  list-style: none; }
-
-.container {
-  border: 2px solid red; }
-
-.adaptive {
-  width: 100%;
-  height: auto; }
-
-.title {
+.carousel-inner {
   margin-top: 60px;
-  font-size: 40px;
-  font-weight: 900;
-  text-align: center; }
-
-.button {
-  max-width: 100%;
-  margin: 0;
-  padding: 10px;
-  padding-right: 22px;
-  padding-left: 22px;
-  background-color: #8d81ac;
-  border: transparent;
-  border-radius: 20px;
-  text-align: center; }
-  .button-text {
-    font-size: 12.72727px;
-    color: #ffffff;
-    font-weight: bold; }
-
-input {
-  border-radius: 20px;
-  border: 1px solid;
-  background: #ffffff;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.logo, .header-menu, .header-button {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.people-talking {
-  background: url("../img/7/background/3-layers.png"), no-repeat;
-  background-size: cover; }
-  .people-talking-title {
-    color: #ffffff; }
-  .people-talking-list .col-12 {
-    text-align: center; }
-  .people-talking-list-img {
-    margin-top: 35px;
-    margin-bottom: 35px; }
-  .people-talking-list-desc {
-    text-align: center;
-    font-style: italic;
-    color: #ffffff; }
-
-.pricing {
-  border-top: 1px solid; }
-  .pricing-title {
-    margin-top: 45px;
-    margin-bottom: 45px;
-    color: #ffffff; }
-  .pricing-list-element {
-    width: 100%;
-    margin-top: 10px;
-    padding: 0;
-    margin-bottom: 15px; }
-    .pricing-list-element-name {
-      font-size: 1.5em;
-      font-weight: 700;
-      color: #fff;
-      opacity: 1;
-      text-transform: uppercase; }
-    .pricing-list-element-header {
-      padding-top: 25px;
-      padding-bottom: 25px;
-      text-align: center;
-      background-color: #695b6a; }
-    .pricing-list-element-body {
-      background-color: #5f5161;
-      text-align: center; }
-    .pricing-list-element-price {
-      color: #ffffff;
-      font-size: 56px;
-      font-weight: 700; }
-    .pricing-list-element-duration {
-      display: block;
-      margin-top: 5px;
-      margin-bottom: 25px;
-      padding-bottom: 25px;
-      opacity: 0.3;
-      color: #dedede;
-      border-bottom: 4px solid #9D8FBF; }
-    .pricing-list-element-type {
-      font-size: 14px;
-      font-weight: bold;
-      color: #ffffff; }
-    .pricing-list-element-btn {
-      margin-top: 65px;
-      margin-bottom: 40px;
-      background-color: #66586C; }
-      .pricing-list-element-btn .button-text {
-        text-transform: uppercase; }
-  .pricing-text {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    opacity: 0.8;
-    color: #b5acb5; }
-
-.slider-img {
-  margin-right: 10px; }
-
-.slider-text {
-  margin-top: 45px;
-  text-align: center; }
+  padding-bottom: 70px;
+  border-bottom: 0.5px solid silver; }
 
 .logo, .header-menu, .header-button {
   display: flex;
@@ -600,3 +512,80 @@ input {
 .footer-logo {
   display: flex;
   justify-content: flex-start; }
+
+.people-talking {
+  background: url("../img/7/background/3-layers.png"), no-repeat;
+  background-size: cover; }
+  .people-talking-title {
+    color: #ffffff; }
+  .people-talking-list .col-12 {
+    text-align: center; }
+  .people-talking-list-img {
+    margin-top: 35px;
+    margin-bottom: 35px; }
+  .people-talking-list-desc {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff; }
+
+.pricing {
+  border-top: 1px solid; }
+  .pricing-title {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #ffffff; }
+  .pricing-list-element {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 15px; }
+    .pricing-list-element-name {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #fff;
+      opacity: 1;
+      text-transform: uppercase; }
+    .pricing-list-element-header {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align: center;
+      background-color: #695b6a; }
+    .pricing-list-element-body {
+      background-color: #5f5161;
+      text-align: center;
+      padding-bottom: 35px; }
+    .pricing-list-element-price {
+      color: #ffffff;
+      font-size: 56px;
+      font-weight: 700; }
+    .pricing-list-element-duration {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+      opacity: 0.3;
+      color: #dedede;
+      border-bottom: 4px solid #9D8FBF; }
+    .pricing-list-element-type {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff; }
+    .pricing-list-element-btn {
+      margin-top: 65px;
+      margin-bottom: 40px;
+      background-color: #66586C; }
+      .pricing-list-element-btn .button-text {
+        text-transform: uppercase; }
+  .pricing-text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+    color: #b5acb5; }
+
+.slider-img {
+  margin-right: 10px; }
+
+.slider-text {
+  margin-top: 45px;
+  text-align: center; }
